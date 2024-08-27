@@ -1,0 +1,24 @@
+.blue-background {
+    background-color: aquamarine;
+}
+
+.full {
+    width: 100%;
+}
+
+.align-center {
+    text-align: center;
+}
+
+b {
+    text-decoration: underline;
+}
+
+li.main-li {
+    background-color: lightcyan;
+    text-decoration: underline;
+}
+
+li:hover {
+    background-color: aquamarine;
+}
