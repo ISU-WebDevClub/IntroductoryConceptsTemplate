@@ -22,3 +22,7 @@ li.main-li {
 li:hover {
     background-color: aquamarine;
 }
+
+p.pclass {
+    background-color: purple;
+}

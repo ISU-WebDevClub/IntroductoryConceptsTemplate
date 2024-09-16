@@ -2,23 +2,39 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- The title tag determines what will be shown as the title of the page in the tab -->
         <title>My First HTML Site!</title>
+        <!-- Importing styles is done with the <link> tag. You can import as many as you would like, but order matters!-->
         <link rel="stylesheet" href="../styling/styles.css">
+        <!-- Importing JS is very similar, but is done with the <script> tag. -->
         <script type="text/javascript" src="../code/main.js"></script>
     </head>
     <body>
+        <!-- Heading are created using a <h*> tag and range from <h1> (largest) to <h6> (smallest) -->
         <h1 id="clickable" class="blue-background">Hello Web Dev Club! I am an &lt;h1&gt; heading!</h1>
         <h3>Headings can be of various sizes, I am an &lt;h3&gt; heading!</h1>
         <h6>Headings can go all the way down to &lt;h6&gt;, not much of a heading, is it?</h6>
         
+        <!-- Paragraphs are your main form of text, they use the <p> tag -->
         <p>This is a paragraph tag, it uses the &lt;p&gt; tag </p>
         <p>Inside of paragraph tags, you can use the &lt;em&gt; tag to create <em>ITALICIZED</em> text!</p>
         <p>Or the &lt;b&gt; tag to create <b>BOLD</b> text!</p>
 
+        <!-- Unordered List, which is done using <ul>, creates a bulleted list. Each list item, noted with <li> will be a bullet point-->
         <ul class="full">
             <li class="align-center">These are list items.</li>
             <li class="main-li">They are created by having &lt;li&gt; tags</li>
             <li>inside of &lt;ul&gt; tags</li>
         </ul>
+
+        <!-- You can also use Ordered Lists, which number the items. These are created with the <ol> tag -->
+        <ol class="full"></ul>
+            <li class="align-center">These are ordered list items.</li>
+            <li class="main-li">They are created by having &lt;li&gt; tags</li>
+            <li>inside of &lt;ol&gt; tags</li>
+        </ol>
+
+        <!-- Inline Styling overrides external styling from a File! -->
+        <p class="pclass" style="background-color: red;">Even though I have the pclass to turn me purple, I am Red!</p>
     </body>
 </html>
