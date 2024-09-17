@@ -1,0 +1,42 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    font-family: Inter;
+}
+
+
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+
+    --accent1: #4986be;
+  }
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 1rem;
+}
+  
+
+h2 {
+  font-size: 4rem;
+}
+
+#confetti {
+  width: 6rem; height: 6rem;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--accent1);
+  box-shadow: 0 .25rem 0 color-mix(in srgb, black 20%, var(--accent1)) ;
+  transition: .25s ease;
+  color: white;
+  margin-top: 5rem;
+}
+
+#confetti:hover {
+  box-shadow: 0 .1rem 0 color-mix(in srgb, black 20%, var(--accent1)) ;
+  transform: translateY(.15rem);
+}
