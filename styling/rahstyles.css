@@ -1,12 +1,40 @@
 body{
     background-color: blanchedalmond;
+    background-image: url('../styling/bg.jpg');
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h1{
     text-decoration: underline;
     color: yellowgreen;
+    align-self: center;
+    margin-top: 150px;
 }
 
 p :hover{
-    background-color: bisque;
+    background-color: rgb(206, 255, 196);
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container p{
+    align-self: center;
+}
+
+.container h3{
+    align-self: center;
+}
+
+.middle{
+    align-self: center;
+}
+
+
+.top-container{
+    display: flex;
+    justify-content: center;
+}
