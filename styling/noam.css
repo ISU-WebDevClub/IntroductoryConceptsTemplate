@@ -30,13 +30,19 @@ h2 {
   border-radius: 50%;
   border: none;
   background-color: var(--accent1);
-  box-shadow: 0 .25rem 0 color-mix(in srgb, black 20%, var(--accent1)) ;
+  box-shadow: 0 .5rem 0 color-mix(in srgb, black 20%, var(--accent1)) ;
   transition: .25s ease;
   color: white;
   margin-top: 5rem;
+  outline: none;
 }
 
 #confetti:hover {
-  box-shadow: 0 .1rem 0 color-mix(in srgb, black 20%, var(--accent1)) ;
-  transform: translateY(.15rem);
+  box-shadow: 0 .2rem 0 color-mix(in srgb, black 20%, var(--accent1)) ;
+  transform: translateY(.3rem);
+}
+
+#confetti:active {
+  box-shadow: 0 0 0 color-mix(in srgb, black 20%, var(--accent1)), 0 .3rem 0 color-mix(in srgb, black 20%, var(--accent1)) inset;
+  transform: translateY(.45rem);
 }
